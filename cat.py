@@ -4,7 +4,7 @@ import sys
 try:
     file_name = sys.argv[1]
 except IndexError:
-    file_name = 'final.json'
+    file_name = 'add.json'
 except Exception as e:
     print(f"Error: {e}")
     print("Usage: python cat.py [file_name]")
